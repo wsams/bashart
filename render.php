@@ -104,7 +104,7 @@ for ($i=0; $i<$rows; $i++) {
         // THIS IS WHERE YOU PLAY!!! Provide math expressions to the printChar()
         // function. You have the row and column value at your disposal.
         // You can also keep track of special constants and use those in your 
-        // printChar() expressions like this: $c = $i + $j;
+        // printChar() expressions like this: $c += $i + $j;
         printChar($i + $j - cos($i), $style);
 
     }

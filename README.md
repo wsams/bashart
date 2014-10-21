@@ -35,7 +35,7 @@ Towards the very bottom of the script you will find `printChar()` nested inside 
 
     printChar($i + $j, $style);
 
-You might also start a variable outside of the two loops. For example, `$c = 0;`. Then inside just before `printChar()` you may update it like this, `$c = $i + $j`. You may then use it like this.
+You might also start a variable outside of the two loops. For example, `$c = 0;`. Then inside just before `printChar()` you may update it like this, `$c += $i + $j`. You may then use it like this.
 
     printChar(pow($c, 2) + $i, $style);
 
