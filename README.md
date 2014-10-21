@@ -3,10 +3,14 @@ bashart
 
 bashart is a simple PHP script that produces ascii art in BASH based on mathematical expressions.
 
-Screenshot
-==========
+Screenshots
+===========
 
-<a target="_blank" href="example.png"><img src="example.png" alt="example bashart render" /></a>
+<a target="_blank" href="examples/example.png"><img src="examples/thumb.example.png" alt="example bashart render" /></a>
+
+&nbsp;&nbsp;
+
+<a target="_blank" href="examples/example2.png"><img src="examples/thumb.example2.png" alt="example bashart render" /></a>
 
 Usage
 =====
