@@ -62,5 +62,5 @@ $colors = array("38;05;0", "38;05;1", "38;05;2",
     "38;05;254", "38;05;255");
 
 foreach ($colors as $color) {
-    print("\e[" . $color . "m" . "\] $color\n");
+    print("\e[" . $color . "m" . "$color\n");
 }
