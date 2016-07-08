@@ -61,6 +61,11 @@ $colors = array("38;05;0", "38;05;1", "38;05;2",
     "38;05;250", "38;05;251", "38;05;252", "38;05;253", 
     "38;05;254", "38;05;255");
 
-foreach ($colors as $color) {
-    print("\e[" . $color . "m" . "$color\n");
+foreach ($colors as $k=>$color) {
+    $printColor = str_pad($color, 9, " ", STR_PAD_LEFT);
+    print("\e[" . $color . "m" . "$printColor  ");
+    // This allows us to print 8 colors per line in a grid layout
+    if (($k + 1) % 8 === 0) {
+        print("\n");
+    }
 }
